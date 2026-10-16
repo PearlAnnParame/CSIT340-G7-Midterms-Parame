@@ -1,7 +1,7 @@
 import {useState} from "react";
 import Profile from "./Profile";
 
-function Hire({ rate = 0 }){
+function Hire(){
     const [hours, setHours] = useState(0);
 
     function handleAddHour() {

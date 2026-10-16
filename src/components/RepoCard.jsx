@@ -1,10 +1,11 @@
-import Bio from "./Bio";
+import Repositories from "./Repositories";
 
 function RepoCard({name, description, language, commits}){
     return(
         <>
         <div className="rounded-xl border-2 border-[#222222] p-8">
-            <Bio name={name}/>
+            <Repositories />
+
           <div className="flex items-center justify-between">
             <h3 className="text-2xl font-bold">{name}</h3>
             <button

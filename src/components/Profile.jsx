@@ -1,5 +1,4 @@
 import {useState} from "react";
-import Hire from "./Hire";
 
 function Profile(){
     const [followers, setFollowers] = useState(0);
@@ -21,7 +20,6 @@ function Profile(){
     return(
         <>
         <div className="flex items-end justify-between bg-[#F5E7C6] px-20 py-10">
-        <Hire/>
         <div>
           <header>
             <h2 className="text-6xl font-bold">PEARL ANN ARBUIS PARAME</h2>
